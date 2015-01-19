@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A057B021A6AE07C001B738D /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A057B021A6AE07C001B738D /* Tipmates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipmates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A057B061A6AE07C001B738D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A057B071A6AE07C001B738D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A057B091A6AE07C001B738D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A057B0C1A6AE07C001B738D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A057B0E1A6AE07C001B738D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A057B111A6AE07C001B738D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1A057B171A6AE07D001B738D /* TipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A057B171A6AE07D001B738D /* TipmatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipmatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A057B1C1A6AE07D001B738D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A057B1D1A6AE07D001B738D /* tipsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +68,8 @@
 		1A057B031A6AE07C001B738D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A057B021A6AE07C001B738D /* Tipster.app */,
-				1A057B171A6AE07D001B738D /* TipsterTests.xctest */,
+				1A057B021A6AE07C001B738D /* Tipmates.app */,
+				1A057B171A6AE07D001B738D /* TipmatesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A057B011A6AE07C001B738D /* Tipster */ = {
+		1A057B011A6AE07C001B738D /* Tipmates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A057B211A6AE07D001B738D /* Build configuration list for PBXNativeTarget "Tipster" */;
+			buildConfigurationList = 1A057B211A6AE07D001B738D /* Build configuration list for PBXNativeTarget "Tipmates" */;
 			buildPhases = (
 				1A057AFE1A6AE07C001B738D /* Sources */,
 				1A057AFF1A6AE07C001B738D /* Frameworks */,
@@ -127,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = Tipster;
+			name = Tipmates;
 			productName = tipster;
-			productReference = 1A057B021A6AE07C001B738D /* Tipster.app */;
+			productReference = 1A057B021A6AE07C001B738D /* Tipmates.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1A057B161A6AE07D001B738D /* TipsterTests */ = {
@@ -147,7 +147,7 @@
 			);
 			name = TipsterTests;
 			productName = tipsterTests;
-			productReference = 1A057B171A6AE07D001B738D /* TipsterTests.xctest */;
+			productReference = 1A057B171A6AE07D001B738D /* TipmatesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A057AFD1A6AE07C001B738D /* Build configuration list for PBXProject "Tipster" */;
+			buildConfigurationList = 1A057AFD1A6AE07C001B738D /* Build configuration list for PBXProject "Tipmates" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A057B011A6AE07C001B738D /* Tipster */,
+				1A057B011A6AE07C001B738D /* Tipmates */,
 				1A057B161A6AE07D001B738D /* TipsterTests */,
 			);
 		};
@@ -230,7 +230,7 @@
 /* Begin PBXTargetDependency section */
 		1A057B191A6AE07D001B738D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A057B011A6AE07C001B738D /* Tipster */;
+			target = 1A057B011A6AE07C001B738D /* Tipmates */;
 			targetProxy = 1A057B181A6AE07D001B738D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -340,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Tipster;
+				PRODUCT_NAME = Tipmates;
 			};
 			name = Debug;
 		};
@@ -350,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = Tipster;
+				PRODUCT_NAME = Tipmates;
 			};
 			name = Release;
 		};
@@ -368,7 +368,7 @@
 				);
 				INFOPLIST_FILE = tipsterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = TipsterTests;
+				PRODUCT_NAME = TipmatesTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipster.app/tipster";
 			};
 			name = Debug;
@@ -383,7 +383,7 @@
 				);
 				INFOPLIST_FILE = tipsterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = TipsterTests;
+				PRODUCT_NAME = TipmatesTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipster.app/tipster";
 			};
 			name = Release;
@@ -391,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A057AFD1A6AE07C001B738D /* Build configuration list for PBXProject "Tipster" */ = {
+		1A057AFD1A6AE07C001B738D /* Build configuration list for PBXProject "Tipmates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A057B1F1A6AE07D001B738D /* Debug */,
@@ -400,7 +400,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A057B211A6AE07D001B738D /* Build configuration list for PBXNativeTarget "Tipster" */ = {
+		1A057B211A6AE07D001B738D /* Build configuration list for PBXNativeTarget "Tipmates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A057B221A6AE07D001B738D /* Debug */,
